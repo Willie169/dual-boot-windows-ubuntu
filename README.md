@@ -1,4 +1,7 @@
 # dual-boot-windows-ubuntu
+
+Instructions to dual-boot Windows and Ubuntu.
+
 ## Make Bootable Linux USB and Install Linux
 ### Download ISO
 
