@@ -2,6 +2,15 @@
 
 Instructions to dual-boot Windows and Ubuntu.
 
+## Table of Contents
+
+* [Make Bootable Linux USB and Install Linux](#make-bootable-linux-usb-and-install-linux)
+* [Shrink Windows Drive Volume](#shrink-windows-drive-volume)
+* [TestDisk Partition Table Recovery](#testdisk-partition-table-recovery)
+* [Windows Bootloader Recovery on Dual-Boot with Intel VMD SSD](#windows-bootloader-recovery-on-dual-boot-with-intel-vmd-ssd)
+* [Time Mismatches When Dual Booting with Windows](#time-mismatches-when-dual-booting-with-windows)
+* [Connect-to-WPA2-Enterprise-PEAP-MSCHAPV2-Ubuntu](#connect-to-wpa2-enterprise-peap-mschapv2-ubuntu)
+
 ## Make Bootable Linux USB and Install Linux
 ### Download ISO
 
