@@ -235,7 +235,7 @@ quit
 <li>Connect to the network again.</li>
 </ol>
 
-### Source
+### References
 - <https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/2084553>
 - <https://discourse.gnome.org/t/wifi-connections-with-unsupported-tls-protocols-should-be-handled-better/17540>
 
