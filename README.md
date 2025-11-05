@@ -9,7 +9,8 @@ Instructions to dual-boot Windows and Ubuntu.
 * [TestDisk Partition Table Recovery](#testdisk-partition-table-recovery)
 * [Windows Bootloader Recovery on Dual-Boot with Intel VMD SSD](#windows-bootloader-recovery-on-dual-boot-with-intel-vmd-ssd)
 * [Time Mismatches When Dual Booting with Windows](#time-mismatches-when-dual-booting-with-windows)
-* [Connect-to-WPA2-Enterprise-PEAP-MSCHAPV2-Ubuntu](#connect-to-wpa2-enterprise-peap-mschapv2-ubuntu)
+* [Connect to WPA2 Enterprise PEAP MSCHAPV2 Network on Ubuntu](#connect-to-wpa2-enterprise-peap-mschapv2-network-on-ubuntu)
+* [My Related Repositories](#my-related-repositories)
 
 ## Make Bootable Linux USB and Install Linux
 ### Download ISO
@@ -208,10 +209,10 @@ sudo timedatectl set-local-rtc 1
 sudo timedatectl set-ntp true
 ```
 
-## Connect-to-WPA2-Enterprise-PEAP-MSCHAPV2-Ubuntu
+## Connect to WPA2 Enterprise PEAP MSCHAPV2 Network on Ubuntu
 ### Symptom
 
-Cannot connect to WPA2 Enterprise PEAP MSCHAPV2 network.
+Cannot connect to WPA2 Enterprise PEAP MSCHAPV2 network on Ubuntu.
 
 ### Solution
 
@@ -237,3 +238,9 @@ quit
 ### Source
 - <https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/2084553>
 - <https://discourse.gnome.org/t/wifi-connections-with-unsupported-tls-protocols-should-be-handled-better/17540>
+
+## My Related Repositories
+
+* [**ubuntu-setup-with-vnc-and-gpu**](https://github.com/Willie169/ubuntu-setup-with-vnc-and-gpu): Scripts and instructions for setting up Ubuntu derivatives on AMD64 with tools for development, productivity, graphics, remote control, multimedia, communication, and more.
+* [**switch-firefox-from-snap-to-deb**](https://github.com/Willie169/switch-firefox-from-snap-to-deb): Scripts to switch Firefox and Thunderbird from Snap to .deb and fix Fcitx5 not working on Firefox from PPA.
+* [**LinuxAndTermuxTips**](https://github.com/Willie169/LinuxAndTermuxTips): Tips for Linux and Termux.
