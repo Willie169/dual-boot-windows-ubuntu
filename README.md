@@ -232,7 +232,7 @@ and run:
 <pre><code>save
 quit
 </code></pre></li>
-<li>Reboot your computer and connect again.</li>
+<li>Connect to the network again.</li>
 </ol>
 
 ### Source
