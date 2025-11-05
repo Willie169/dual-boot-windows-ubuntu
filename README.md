@@ -209,29 +209,30 @@ sudo timedatectl set-ntp true
 ```
 
 ## Connect-to-WPA2-Enterprise-PEAP-MSCHAPV2-Ubuntu
+### Symptom
+
+Cannot connect to WPA2 Enterprise PEAP MSCHAPV2 network.
+
 ### Solution
 
-Run
-```
-nmcli con edit 'eduroam'
-```
-to enter nmcli shell. Replace `eduroam` with your network SSID (e.g. ntu_peap).
-
-In the shell, run:
-```
-set 802-1x.phase1-auth-flags
-```
+<ol>
+<li>Try to connect to the network via <code>NetworkManager</code> or network settings in GUI with your credentials (which fails).</li>
+<li>Run
+<pre><code>nmcli con edit 'eduroam'
+</code></pre>
+to enter the nmcli shell. Replace <code>eduroam</code> with the SSID of the network you want to connect to.</li>
+<li>In the shell, run:
+<pre><code>set 802-1x.phase1-auth-flags
+</code></pre>
 paste:
-```
-tls-1-0-enable, tls-1-1-enable, tls-1-2-enable, tls-1-3-enable
-```
+<pre><code>tls-1-0-enable, tls-1-1-enable, tls-1-2-enable, tls-1-3-enable
+</code></pre>
 and run:
-```
-save
+<pre><code>save
 quit
-```
-
-Reboot your computer and connect again.
+</code></pre></li>
+<li>Reboot your computer and connect again.</li>
+</ol>
 
 ### Source
 - <https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/2084553>
