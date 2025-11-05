@@ -241,6 +241,6 @@ quit
 
 ## My Related Repositories
 
-* [**ubuntu-setup-with-vnc-and-gpu**](https://github.com/Willie169/ubuntu-setup-with-vnc-and-gpu): Scripts and instructions for setting up Ubuntu derivatives on AMD64 with tools for development, productivity, graphics, remote control, multimedia, communication, and more.
-* [**switch-firefox-from-snap-to-deb**](https://github.com/Willie169/switch-firefox-from-snap-to-deb): Scripts to switch Firefox and Thunderbird from Snap to .deb and fix Fcitx5 not working on Firefox from PPA.
-* [**LinuxAndTermuxTips**](https://github.com/Willie169/LinuxAndTermuxTips): Tips for Linux and Termux.
+* [**ubuntu-setup-with-vnc-and-gpu**](https://github.com/Willie169/ubuntu-setup-with-vnc-and-gpu)
+* [**switch-firefox-from-snap-to-deb**](https://github.com/Willie169/switch-firefox-from-snap-to-deb)
+* [**LinuxAndTermuxTips**](https://github.com/Willie169/LinuxAndTermuxTips)
