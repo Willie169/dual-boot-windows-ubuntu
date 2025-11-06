@@ -23,16 +23,20 @@ Download a software that can flash OS to flash drive. Take Balena Etcher for exa
 
 #### Download
 
-Download **Etcher for Linux x64 (64-bit) (zip)** from <https://etcher.balena.io/#download-etcher>.
+Download **balena-etcher_*_amd64.deb** from the lastest release of <https://github.com/balena-io/etcher>.
+
+#### Installation
+
+```
+sudo apt install libgdk-pixbuf-xlib-2.0-0 libgdk-pixbuf2.0-0 -y
+sudo dpkg -i balena-etcher_*_amd64.deb
+rm balena-etcher_*_amd64.deb
+```
 
 #### Open Balena Etcher
 
 ```
-unzip balenaEtcher-linux-x64-2.1.4.zip
-cd balenaEtcher-linux-x64-2.1.4
-sudo chown root:$(whoami) chrome-sandbox
-sudo chmod 4755 chrome-sandbox
-./balena-etcher
+balena-etcher
 ```
 
 #### Flash
