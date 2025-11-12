@@ -211,7 +211,7 @@ in the dual-booting Linux system.</li>
 
 When dual booting with Windows, you need to:
 - Disabe fast boot and secure boot in BIOS.
-- On some devices, `sudo vim /etc/grub.d/30_os_prober` and add or edit line `quick_boot="0"`.
+- If such file exists, `sudo vim /etc/grub.d/30_os_prober` and add or edit line `quick_boot="0"`.
 - `sudo vim /etc/default/grub` and add or change to a non-zero `GRUB_TIMEOUT`, when `GRUB_TIMEOUT_STYLE=menu`, or `GRUB_HIDDEN_TIMEOUT`, when otherwise.
 
 ### GRUB Menu
